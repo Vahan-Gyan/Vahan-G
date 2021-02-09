@@ -1,0 +1,60 @@
+<html>
+<head>
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+            $(function() {
+                $('#my-accordion').simpleAccordion();
+                $('#my-accordion2').simpleAccordion({animationIn: 'slideInDown', animationOut: 'slideOutUp'});
+            });
+        </script>
+<style>
+.accordion dt {
+background: darkgrey;
+cursor: pointer;
+padding: 8px 4px;
+font-size: 13px;
+font-weight: bold;
+}
+.accordion dd {
+padding: 12px 8px;
+}
+.accordion dt,  .accordion dd {
+border-bottom: 1px solid #ccc;
+margin: 0px;
+}
+.accordion {
+margin: 0 auto;
+text-align: center;
+width: 500px;
+border: 1px solid #ccc;
+border-bottom: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+</style>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<dl class="accordion" id="my-accordion">
+<dt>Section 1</dt>
+<dd>Lorem Ipsum dolor sit amet.</dd>
+<dt>Section 2</dt>
+<dd>Lorem Ipsum dolor sit amet.</dd>
+<dt>Section 3</dt>
+<dd>Lorem Ipsum dolor sit amet.</dd>
+<dt>Section 4</dt>
+<dd>Lorem Ipsum dolor sit amet.</dd>
+</dl>
+</body>
+</html>
