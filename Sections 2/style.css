@@ -1,0 +1,30 @@
+.main{
+	margin-top: 200px;
+}
+
+
+.butt{
+	background-color: grey;
+	width: 1200px;
+	height: 50px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.diiv{
+	height: 100px;
+	width: 1200px;
+	line-height: 100px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+
+  animation: fadeIn ease-in-out .5s;
+}
+
+	@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
