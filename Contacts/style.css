@@ -1,0 +1,30 @@
+.all{
+	border: 1px solid black;
+	width: 600px;
+	height: 700px;
+	margin: 0 auto;
+	background-color: #E1DADA;
+}
+
+
+.name{
+	width: 550px;
+	height: 35px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.list{
+	font-size: 30px;
+}
+
+.listik{
+	list-style-type: none;
+}
+
+.lis{
+	background-color: grey;
+	list-style-type: none;
+	border:1px solid black;
+	margin-right: 40px;
+}
